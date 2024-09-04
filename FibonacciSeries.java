@@ -13,7 +13,11 @@ public static void main(String args[]) {
 	for(int n=1; n<=20; n++) {
 		
 	int m=i+j;
+	if(m<=1000) {
 	System.out.println(m + " ");
+	}else {
+		break;
+	}
 	j=i;
 	i=m;
 		
